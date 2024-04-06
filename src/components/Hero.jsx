@@ -23,7 +23,7 @@ const Hero = () => {
 
       <div className='absolute bottom-40 lg:bottom-28 sm:mt-26 lg:mb-5 w-full flex justify-center items-center'>
         <button className='btn btn-download'>
-          <a target="_blank" rel="noopener noreferrer" href="http://localhost:5173/images/Zohra_Neda_Resume.pdf" type="button">Get My Resume</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://zohranedaportfolio.netlify.app/assets/Zohra_Neda_Resume.pdf" type="button">Get My Resume</a>
         </button>
       </div>
 
