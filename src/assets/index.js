@@ -1,62 +1,71 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import frontend from "./frontend.png";
+import web from "./web.webp";
 import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import githubLogo from "./tech/githubLogo.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import ruby from "./tech/ruby.png";
+import rails from "./tech/rails.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import womanity from "./company/womanity.jpeg";
+import darkcode from "./company/darkcode.jpg";
+import self_employed from "./company/self_employed.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import house from "./house.png";
+import FurniShop from "./FurniShop.png";
+import driveShare from "./driveShare.png";
+import metricsWebApp from "./metricsWebApp.png";
+import spaceTravelersHub from "./spaceTravelersHub.png";
+import budgetApp from "./budgetApp.png";
+
+import MohammedAlFuhidy from "./testimonial/MohammedAlFuhidy.jpeg";
+import MarcoDíaz from "./testimonial/MarcoDíaz.jpeg";
+import CosmasWaswa from "./testimonial/CosmasWaswa.jpg";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  frontend,
   web,
   github,
+  link,
   menu,
   close,
   css,
-  docker,
+  githubLogo,
   figma,
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
+  ruby,
+  rails,
   reactjs,
   redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  self_employed,
+  womanity,
+  darkcode,
+  budgetApp,
+  driveShare,
+  metricsWebApp,
+  spaceTravelersHub,
+  FurniShop,
+  house,
+  CosmasWaswa,
+  MohammedAlFuhidy,
+  MarcoDíaz
 };
