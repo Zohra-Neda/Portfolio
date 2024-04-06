@@ -1,7 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -10,20 +7,26 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
+  rails,
+  ruby,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  github,
+  darkcode,
+  self_employed,
+  womanity,
+  budgetApp,
+  spaceTravelersHub,
+  metricsWebApp,
+  driveShare,
+  FurniShop,
+  house,
   threejs,
+  CosmasWaswa,
+  MohammedAlFuhidy,
+  MarcoDíaz
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -46,16 +49,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React JS Developer",
+    icon: reactjs,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Redux Developer",
+    icon: redux,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Ruby on Rails Developer",
+    icon: ruby,
   },
 ];
 
@@ -89,12 +92,12 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Rails",
+    icon: rails,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Ruby",
+    icon: ruby,
   },
   {
     name: "Three JS",
@@ -109,31 +112,18 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "github",
+    icon: github,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React Developer",
+    company_name: "DarkCode",
+    icon: darkcode,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 - March 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,29 +132,26 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full Stack Web Developer",
+    company_name: "Self-Employed",
+    icon: self_employed,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Spending 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.",
+      "Developing skills in remote pair-programming using GitHub, industry-standard gitflow, and daily standups to communicate and collaborate with international remote developers.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Coding and Web Development Assistant Trainer",
+    company_name: "Womanity",
+    icon: womanity,
+    iconBg: "#E6DEDD",
+    date: "Apr 2018 - Dec 2020",
+    points: [
+      "Girls Can Code: Equipped 150 girls in Afghanistan with the essential skills required to pursue careers in technology, resulting in a 60% increase in their technological proficiency.",
+      "Empowered and led 150 Afghan girls in integrating and utilizing new technologies in their daily lives, leading to a 60% improvement in their overall tech engagement.",
     ],
   },
 ];
@@ -172,156 +159,153 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Zohra is a highly motivated and results-oriented individual.",
+    name: "Mohammed AlFuhidy",
+    designation: "Software Developer",
+    company: "fastn",
+    image: MohammedAlFuhidy,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Great at handling difficult projects and tasks, Zohra.",
+    name: "Cosmas Wasswa",
+    designation: "Full Stack Software Developer",
+    company: "Self-Employed",
+    image: CosmasWaswa,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "She consistently crafts web applications that excel in functionality.",
+    name: "Marco Díaz",
+    designation: "Full Stack Web Developer",
+    company: "Self-Employed",
+    image: MarcoDíaz,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Real Estate",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Real Estate website will showcase apartments, properties, their prices, and locations across different countries. Users will be able to filter apartments based on countries, prices, and property types.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "white-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: house,
+    source_code_link: "https://github.com/Zohra-Neda/Real-Estate-API",
   },
   {
-    name: "Job IT",
+    name: "FurniShop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "FurniShop is a front-end web application designed to showcase various furniture items through a captivating slideshow. It features client feedback about the products, providing valuable insights for potential customers.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "tailwind",
+        color: "white-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: FurniShop,
+    source_code_link: "https://github.com/Zohra-Neda/FurniShop",
   },
   {
-    name: "Trip Guide",
+    name: "DriveShare",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "DriveShare is a full-stack web application designed to streamline the process of managing car rentals. Users can easily add new cars to their inventory, reserve vehicles for future use, and seamlessly delete listings.",
     tags: [
       {
-        name: "nextjs",
+        name: "rails",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "react",
+        color: "white-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "tailwind",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: driveShare,
+    source_code_link: "https://github.com/Zohra-Neda/DriveShare-API",
   },
   {
-    name: "Trip Guide",
+    name: "Budget App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Ruby on Rails Budget App is centered around the creation of a mobile web application designed for budget management. In this application, users can efficiently oversee their financial transactions by categorizing them.",
     tags: [
       {
-        name: "nextjs",
+        name: "rails",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "rspec",
+        color: "white-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "postgresql",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: budgetApp,
+    source_code_link: "https://github.com/Zohra-Neda/Budget-App",
+    live: "https://mobile-app-zn.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Metrics-Web-App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The app uses Redux to manage state and includes several reusable components, such as a search bar and a filter component. The app also includes a responsive design that works well on both desktop and mobile devices.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "redux",
+        color: "white-text-gradient",
+      },
+      {
+        name: "css3",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: metricsWebApp,
+    source_code_link: "https://github.com/Zohra-Neda/Metrics-Web-App",
+  },
+  {
+    name: "Space-Travelers-Hub",
+    description:
+      "The Space Traveler Hub is an app built with React and Redux. On the main page, it displays rockets along with their detailed explanations. The mission page allows users to view available missions. Users are also allowed to reserve missions or join meetings.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "white-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: spaceTravelersHub,
+    source_code_link: "https://github.com/Zohra-Neda/Space-Travelers-Hub",
   },
 ];
 
