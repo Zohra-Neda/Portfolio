@@ -69,9 +69,8 @@ Explore mesmerizing 3D models, interact with dynamic animations, and experience 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Soon...
 
-<!-- - [Live Demo Link](https://google.com) -->
+- [Live Demo Link](https://zohranedaportfolio.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
