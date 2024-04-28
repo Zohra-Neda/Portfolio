@@ -45,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React JS Developer",
+    title: "React JS",
     icon: reactjs,
   },
   {
-    title: "Redux Developer",
+    title: "Redux",
     icon: redux,
   },
   {
-    title: "Ruby on Rails Developer",
+    title: "Ruby on Rails",
     icon: ruby,
   },
 ];
@@ -242,70 +242,6 @@ const projects = [
     ],
     image: driveShare,
     source_code_link: "https://github.com/Zohra-Neda/DriveShare-API",
-  },
-  {
-    name: "Budget App",
-    description:
-      "The Ruby on Rails Budget App is centered around the creation of a mobile web application designed for budget management. In this application, users can efficiently oversee their financial transactions by categorizing them.",
-    tags: [
-      {
-        name: "rails",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rspec",
-        color: "white-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: budgetApp,
-    source_code_link: "https://github.com/Zohra-Neda/Budget-App",
-    live: "https://mobile-app-zn.onrender.com/",
-  },
-  {
-    name: "Metrics-Web-App",
-    description:
-      "The app uses Redux to manage state and includes several reusable components, such as a search bar and a filter component. The app also includes a responsive design that works well on both desktop and mobile devices.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "white-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: metricsWebApp,
-    source_code_link: "https://github.com/Zohra-Neda/Metrics-Web-App",
-  },
-  {
-    name: "Space-Travelers-Hub",
-    description:
-      "The Space Traveler Hub is an app built with React and Redux. On the main page, it displays rockets along with their detailed explanations. The mission page allows users to view available missions. Users are also allowed to reserve missions or join meetings.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "white-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: spaceTravelersHub,
-    source_code_link: "https://github.com/Zohra-Neda/Space-Travelers-Hub",
   },
 ];
 
