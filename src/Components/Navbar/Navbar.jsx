@@ -14,11 +14,24 @@ const Navbar = () => {
 
   // this will hide the navbar again
   const removeNavBar = () => {
-    setActive('navBar activeNavbar')
+    setActive('navBar')
   }
 
+  // code statement to add a background color to the header.
+  const [activeHeader, setActiveHeader] = useState('header')
+  const addBg = () => {
+    if (window.scrollY >= 10) {
+      setActiveHeader("header activeHeader")
+    }
+    else {
+      setActiveHeader("header")
+    }
+  }
+
+  window.addEventListener("scroll", addBg)
+
   return (
-    <header className="header">
+    <header className={activeHeader}>
       <div className="logoDiv">
         <h1 className="log">
           <a href="#home">Ai.</a>
@@ -32,7 +45,7 @@ const Navbar = () => {
               <span className="headerNumber">1.</span>About</a>
           </li>
           <li className="navItem">
-            <a href="#skills" className="navLink">
+            <a href="#skill" className="navLink">
               <span className="headerNumber">2.</span>Skills</a>
           </li>
           <li className="navItem">
