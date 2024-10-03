@@ -57,7 +57,7 @@ const Navbar = () => {
               <span className="headerNumber">4.</span>Contact</a>
           </li>
           <button className="btn">
-            <a href="">Resume</a>
+            <a href="Zohra_Neda_Resume.pdf" download="Zohra_Neda_Resume.pdf">Resume</a>
           </button>
         </ul>
 
