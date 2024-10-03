@@ -3,7 +3,9 @@ import './footer.scss'
 
 const Footer = () => {
   return (
-    <section id='footer'>Footer Component</section>
+    <section className="footer">
+      <span>Developed by Zohra Neda 2024 | All rights reserved</span>
+    </section>
   )
 }
 
