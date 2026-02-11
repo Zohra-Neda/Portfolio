@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <section id='home' className="home section">
       {/* this div will be only visible at wider screen */}
-      {/* <div className="leftIcons">
+      <div className="leftIcons">
         <div className="socials grid">
-          <a href='' target="_blank">
+          <a href="https://github.com/Zohra-Neda" target="_blank">
             <AiFillGithub className="icon"/>
           </a>
           <a href='' target="_blank">
@@ -21,7 +21,7 @@ const Home = () => {
           </a>
           <div className="line"></div>
         </div>
-      </div> */}
+      </div>
 
       {/* homeContent */}
       <div className="container homeContainer">
@@ -55,7 +55,7 @@ const Home = () => {
       </div>
 
       {/* right div, with email address ( will also be visible at a wider screen only) */}
-      {/* <div className="rightEmail">
+      <div className="rightEmail">
         <div>
           <div className="emailAddress">
             <a href="https://mailto:youremail@gmail.com" target="_blank">
@@ -64,7 +64,7 @@ const Home = () => {
           </div>
           <div className="line"></div>
         </div>
-      </div> */}
+      </div>
     </section>
   )
 }
