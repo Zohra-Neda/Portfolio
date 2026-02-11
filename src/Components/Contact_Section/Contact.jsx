@@ -16,19 +16,25 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_s79bjuo', 'template_xv7wx0v', form.current, {
-        publicKey: 'jJED9zU-68yH_OmMU',
-      })
-      // .then(
-      //   () => {
-      //     console.log('SUCCESS!');
-      //   },
-      //   (error) => {
-      //     console.log('FAILED...', error.text);
-      //   },
-      // );
-      e.target.reset(); // the form will reset after submit
+    .sendForm(
+      'service_s79bjuo',
+      'template_xv7wx0v',
+      form.current,
+      'jJED9zU-68yH_OmMU'
+    )
+    .then(
+      (result) => {
+        console.log("SUCCESS!", result.text);
+        e.target.reset();
+      },
+      (error) => {
+        console.error("FAILED...", error);
+        alert(error.text || "Something went wrong");
+      }
+    );
   };
+
+
   return (
     <section id='contact' className="contact section container">
       <div className="sectionTitle">
@@ -101,7 +107,7 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail}>
             <input type="text" placeholder="Enter your Name" name="name" />
             <input type="email" placeholder="Enter your Email" name="email" />
-            <textarea name="message" placeholder="Enter your messgae"></textarea>
+            <textarea name="message" placeholder="Enter your message"></textarea>
             <button type="submit" name="submit" className="formBtn">
               Send Email
             </button>
