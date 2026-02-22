@@ -18,14 +18,11 @@ const About = () => {
       <div className="sectionContent grid">
         <div className="textSection">
           <h4>
-            I'm a success-driven, determined we developer.
-            I have experience using HTML Saas Javascript and PHP
-            to build accessible component-based web pages and systems. <br />
-            Ability to deliver quality results while collaborating in
-            rapidly changing working environments and team compositions.
-            <br />
-            A passionate person willing to learn more technologies to become
-            a better developer than I was yesterday. So determined and result oriented.
+            I'm a skilled software developer with experience in JavaScript and Ruby,
+            and expertise in frameworks like React, Rails and Redux library.
+            I'm a quick learner and collaborate closely with clients to create efficient,
+            scalable, and user-friendly solutions that solve real-world problems.
+            Let's work together to bring your ideas to life!
           </h4>
           
           <div className="aboutBtn">
