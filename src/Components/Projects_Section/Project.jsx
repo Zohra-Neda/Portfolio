@@ -4,8 +4,8 @@ import { AiFillYoutube } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 
 // Images ====================================>
-import img from '../../Assets/Space-Travelers-Hub.PNG'
-//import img1 from '../../Assets/Space-Travelers-Hub.PNG'
+import img1 from '../../Assets/space-travelers-hub.png'
+import img2 from '../../Assets/drive-share.png'
 //import img2 from '../../Assets/Space-Travelers-Hub.PNG'
 // should import all images like above
 
@@ -13,31 +13,43 @@ import img from '../../Assets/Space-Travelers-Hub.PNG'
 const data = [
   {
     id: 1,
-    image: img,
+    image: img1,
     demo: '',
-    liveLink: 'https://github.com/Zohra-Neda/Real-Estate-API',
-    github: '',
-    title: 'hhhh',
-    desc: 'The Real Estate website will showcase apartments, properties, their prices, and locations across different countries. Users will be able to filter apartments based on countries, prices, and property types.',
+    liveLink: 'https://space-travelers-hub-h0bs.onrender.com',
+    github: 'https://github.com/Zohra-Neda/Space-Travelers-Hub',
+    title: 'Space-Travelers-Hub',
+    desc: 'The Space Traveler Hub is an app built with React and Redux. On the main page, it displays rockets along with their detailed explanations. The mission page allows users to view available missions.',
     tech1: 'HTML',
     tech2: 'CSS',
-    tech3: 'JavaScript',
-    tech4: 'SCSS',
+    tech3: 'React.js',
+    tech4: 'Redux.js',
   },
 
   {
     id: 2,
-    image: img,
+    image: img2,
     demo: '',
-    liveLink: 'https://github.com/Zohra-Neda/Real-Estate-API',
-    github: '',
-    title: 'hhhh',
-    desc: 'The Real Estate website will showcase apartments, properties, their prices, and locations across different countries. Users will be able to filter apartments based on countries, prices, and property types.',
-    tech1: '',
-    tech2: '',
-    tech3: '',
-    tech4: '',
+    liveLink: 'https://drive-share-app-frontend.onrender.com/',
+    github: 'https://github.com/Zohra-Neda/DriveShare-API',
+    title: 'DriveShare',
+    desc: 'DriveShare is a full-stack web application designed to streamline the process of managing car rentals. Users can easily add new cars to their inventory, reserve vehicles for future use, and seamlessly delete listings.',
+    tech1: 'Rails',
+    tech2: 'React',
+    tech3: 'Tailwind',
   },
+
+  {
+    id: 3,
+    image: img2,
+    demo: '',
+    liveLink: 'https://drive-share-app-frontend.onrender.com/',
+    github: 'https://github.com/Zohra-Neda/Doctor-Appointment-Booking-App',
+    title: 'Doctor-Appointment-Booking-App',
+    desc: 'DriveShare is a full-stack web application designed to streamline the process of managing car rentals. Users can easily add new cars to their inventory, reserve vehicles for future use, and seamlessly delete listings.',
+    tech1: 'Rails',
+    tech2: 'React',
+    tech3: 'Tailwind',
+  }
 
 ]
 
