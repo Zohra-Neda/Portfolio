@@ -34,7 +34,7 @@ const Navbar = () => {
     <header className={activeHeader}>
       <div className="logoDiv">
         <h1 className="log">
-          <a href="#home">Ai.</a>
+          <a href="#home">ZN.</a>
         </h1>
       </div>
 
