@@ -1,7 +1,8 @@
 import React from 'react'
 import './home.scss'
 import { AiFillGithub } from 'react-icons/ai'
-import { FiTwitter, FiYoutube } from 'react-icons/fi'
+import { FiTwitter } from 'react-icons/fi'
+import { IoLogoLinkedin } from "react-icons/io";
 import { TbArrowBigRightLines, TbChevronsDown } from 'react-icons/tb'
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
             <FiTwitter className="icon"/>
           </a>
           <a href='' target="_blank">
-            <FiYoutube className="icon"/>
+            <IoLogoLinkedin className="icon"/>
           </a>
           <div className="line"></div>
         </div>
