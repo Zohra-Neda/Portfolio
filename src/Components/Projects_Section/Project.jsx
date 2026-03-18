@@ -1,12 +1,12 @@
 import React from 'react'
 import './projects.scss'
-import { AiFillYoutube } from 'react-icons/ai'
+import { HiExternalLink } from "react-icons/hi";
 import { FiGithub } from 'react-icons/fi'
 
 // Images ====================================>
 import img1 from '../../Assets/space-travelers-hub.png'
 import img2 from '../../Assets/drive-share.png'
-//import img2 from '../../Assets/Space-Travelers-Hub.PNG'
+import img3 from '../../Assets/doctor-appointments.png'
 // should import all images like above
 
 
@@ -40,7 +40,7 @@ const data = [
 
   {
     id: 3,
-    image: img2,
+    image: img3,
     demo: '',
     liveLink: 'https://drive-share-app-frontend.onrender.com/',
     github: 'https://github.com/Zohra-Neda/Doctor-Appointment-Booking-App',
@@ -75,7 +75,7 @@ const Project = () => {
                 <div className="externalLinks flex">
                   <div className="youtubeIcon">
                     <a href={demo} target="_blank">
-                      <AiFillYoutube className="icon"/>
+                      <HiExternalLink className="icon"/>
                     </a>
                   </div>
                   <div className="githubIcon">
