@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.scss'
 import { TbCloudDownload } from 'react-icons/tb'
-import img  from "../../Assets/zohra_neda.jpg";
+import img  from "../../Assets/zohra-neda.jpg";
 
 const About = () => {
   return (
