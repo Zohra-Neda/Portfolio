@@ -74,19 +74,19 @@ const Project = () => {
               <div key={id} className="singleProject">
                 <div className="externalLinks flex">
                   <div className="youtubeIcon">
-                    <a href={demo} target="_blank">
+                    <a href={demo} target="_blank" rel="noreferrer noopener">
                       <HiExternalLink className="icon"/>
                     </a>
                   </div>
                   <div className="githubIcon">
-                    <a href={github} target="_blank">
+                    <a href={github} target="_blank" rel="noreferrer noopener">
                       <FiGithub className="icon"/>
                     </a>
                   </div>
                 </div>
 
                 <div className="imgDiv">
-                  <a href={liveLink} target="_blank">
+                  <a href={liveLink} target="_blank" rel="noreferrer noopener">
                     <img src={image} alt={title} />
                   </a>
                 </div>

@@ -11,13 +11,13 @@ const Home = () => {
       {/* this div will be only visible at wider screen */}
       <div className="leftIcons">
         <div className="socials grid">
-          <a href="https://github.com/Zohra-Neda" target="_blank">
+          <a href="https://github.com/Zohra-Neda" target="_blank" rel="noreferrer noopener">
             <AiFillGithub className="icon"/>
           </a>
-          <a href='' target="_blank">
+          <a href="https://example.com" target="_blank" rel="noreferrer noopener">
             <FiTwitter className="icon"/>
           </a>
-          <a href='' target="_blank">
+          <a href="https://example.com" target="_blank" rel="noreferrer noopener">
             <IoLogoLinkedin className="icon"/>
           </a>
           <div className="line"></div>
@@ -59,7 +59,7 @@ const Home = () => {
       <div className="rightEmail">
         <div>
           <div className="emailAddress">
-            <a href="https://mailto:youremail@gmail.com" target="_blank">
+            <a href="https://mailto:youremail@gmail.com" target="_blank" rel="noreferrer noopener">
               zohra.neda@gmail.com
             </a>
           </div>

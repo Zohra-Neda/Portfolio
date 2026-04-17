@@ -61,7 +61,7 @@ const Contact = () => {
               </span>
 
               <div>
-                <a href="instagram.com" className="flex" target="_blank">
+                <a href="instagram.com" className="flex" target="_blank" rel="noreferrer noopener">
                   Send Message <TbArrowBigRightLines className="icon"/>
                 </a>
               </div>
@@ -77,7 +77,7 @@ const Contact = () => {
               </span>
 
               <div>
-                <a href="https://www.linkedin.com/in/zohra-neda/" className="flex" target="_blank">
+                <a href="https://www.linkedin.com/in/zohra-neda/" className="flex" target="_blank" rel="noreferrer noopener">
                   Send Message <TbArrowBigRightLines className="icon"/>
                 </a>
               </div>
@@ -93,7 +93,7 @@ const Contact = () => {
               </span>
 
               <div>
-                <a href="instagram.com" className="flex" target="_blank">
+                <a href="instagram.com" className="flex" target="_blank" rel="noreferrer noopener">
                   Send Message <TbArrowBigRightLines className="icon"/>
                 </a>
               </div>
